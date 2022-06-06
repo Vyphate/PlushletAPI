@@ -1,12 +1,7 @@
-local PlushletAPI = {}
-PlushletAPI = PlushletAPI.__index
-
-function PlushletAPI.new(Key)
-  local self = setmetatable({}, PlushletAPI)
-  
-  self.Key = Key .. "/PlushletAPI"
-  
-  return self
+local function Destroy()
+  print("Destroyed.")
 end
 
-return PlushletAPI
+local function Build()
+  print("Built.")
+end
