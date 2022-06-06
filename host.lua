@@ -1,7 +1,8 @@
 local function Destroy()
-  print("Destroyed.")
+  print("Destroying.")
 end
 
 local function Build()
-  print("Built.")
+  print("Building.")
 end
+
